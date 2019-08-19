@@ -29,11 +29,20 @@ body{
 	-webkit-box-orient: vertical;
 }
 .container-fluid{
-	padding: 0;
+	
+}
+.row-fluid{
+	text-align: center;
+	display: inline-block;
+	width: auto;
+	margin: auto;
+	max-width: 100%;
 }
 .row-fluid [class*="span"]{
 	background-color: #FFFFFF;
-	margin: 5px 5px 5px 0px;
+	padding:  5px 5px 5px 5px;
+	margin-top: 5px;
+	max-height: 100%;
 }
 .article-image{
 	max-width: 100%;
@@ -61,15 +70,15 @@ body{
 .article-bottom{
 	max-width: 100%;
 	color: #999999;
+	display: inline-block;
 }
 .article-bottom .article-data{
-	float: left;
+	margin-left: 0px;
+	margin-right: 30px;
 }
 .article-bottom .article-comments{
-	float: right;
-	margin-right: 7px;
+	margin-right: 20px;
 }
 .article-bottom .article-viewtimes{
-	float: right;
-	margin-right: 15px;
+	
 }
