@@ -59,6 +59,9 @@ body{
 	text-align: center;
 	margin: 0;
 }
+.article-synopsis .page-header{
+	margin-top: 10px;
+}
 .article-synopsis p{
 	display: -webkit-box;
 	overflow: hidden;
